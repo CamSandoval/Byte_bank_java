@@ -2,9 +2,6 @@ public class Employee {
     private String name;
     private String document;
     private double salary;
-    public Employee(){
-
-    }
 
     public String getName() {
         return name;

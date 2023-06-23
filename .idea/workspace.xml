@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b130a73c-fc07-4c7a-a34c-18b83fe4b879" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test_Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlBonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test_ControlBonus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Key">
+}</component>
+  <component name="RunManager" selected="Application.Test_ControlBonus">
     <configuration name="Key" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Key" />
       <module name="Byte_bank_java_alura" />
@@ -58,6 +59,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_ControlBonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test_ControlBonus" />
+      <module name="Byte_bank_java_alura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test_Employee" />
       <module name="Byte_bank_java_alura" />
@@ -67,8 +75,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Key" />
+        <item itemvalue="Application.Test_ControlBonus" />
         <item itemvalue="Application.Test_Employee" />
+        <item itemvalue="Application.Key" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

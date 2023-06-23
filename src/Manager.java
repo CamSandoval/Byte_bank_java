@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Manager extends Employee{
     private String password;
     public Manager(){
@@ -8,9 +10,9 @@ public class Manager extends Employee{
         this.password = Password;
     }
     public boolean log_In(String Password){
-        return this.password == Password;
+        return Objects.equals(this.password, Password);
     }
     public double getBonus(){
-        return super.getSalary() *0.7;
+        return super.getSalary() +super.getBonus();
     }
 }
