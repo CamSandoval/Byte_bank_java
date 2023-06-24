@@ -11,10 +11,18 @@ public class ControlBonus {
         this.total = this.total + employee.getBonus();
         return this.total;
     }
+    //Thanks to polymorphism, we can only use one method to create a function that
+    // will be shared by all instances that are children of employee.
 
     //For managers
     /*public double total_amount_bonuses(Manager employee){
-        this.total = this.total + employee.getBonus();
+        this.total = this.total + Manager.getBonus();
+        return this.total;
+    }*/
+
+    //For Accountants
+    /*public double total_amount_bonuses(Accountant employee){
+        this.total = this.total + Accountant.getBonus();
         return this.total;
     }*/
 }
