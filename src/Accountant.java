@@ -7,4 +7,7 @@ public class Accountant extends Employee{
             System.out.println("You don't have experience enough");
         }
     }
+    public double getBonus(){
+        return super.getSalary()*0.1;
+    }
 }

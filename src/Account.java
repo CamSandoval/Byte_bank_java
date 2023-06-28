@@ -1,11 +1,11 @@
 import java.util.AbstractCollection;
 
-class Account {
+abstract class Account {
      //When we declared any class without their method main , this is used as a prototype to create many objects
         //Attributes
 
     //private is a keyword used to limit the scope of one variable or method and prevent its direct modification
-     private double balance;
+    protected double balance;
     private int agency;
     private int number;
     //the references are a way to relate one object to another, this is done by creating an attribute with a data
@@ -33,13 +33,7 @@ class Account {
     /**
      * This method makes a deposit into the owner's account
      * @param amount quantity of money*/
-    public void deposit(double amount){
-        if(amount > 0){
-            this.balance =this.balance +amount;
-        }else{
-            System.out.println("You don't make a deposit with a negative number");
-        }
-    }
+    public abstract void deposit(double amount);
 
     /**
      * this method makes a withdrawal into the owner's account

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b130a73c-fc07-4c7a-a34c-18b83fe4b879" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Accountant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Current_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test_Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ControlBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank_account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank_account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Current_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Current_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SavingsAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test_ControlBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_ControlBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test_Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,10 @@
 public class Test_Employee {
     public static void main(String[] args) {
         //test employee
-        Employee diego = new Employee();
+
+        //we will change the data type of diego, because we convert employee into an abstract class
+        //Employee diego = new Employee();
+        Accountant diego = new Accountant(233325456);
         diego.setName("Diego Ramirez");
         diego.setDocument("12233545645");
         diego.setSalary(2500);

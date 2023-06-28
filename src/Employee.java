@@ -1,4 +1,7 @@
-public class Employee {
+//As we know that there is no position in our company which is named employee , we could convert Employee into an abstract class
+    //It will limit the scope of the class Employee, and it cannot be used to instance new objects,
+    // it will only allow to crate instances of its child classes
+public abstract class Employee {
     private String name;
     private String document;
     private double salary;
@@ -25,7 +28,7 @@ public class Employee {
     public void setDocument(String document) {
         this.document = document;
     }
-    public double getBonus(){
-        return this.salary * 0.1;
-    }
+
+    //As we converted Employee into an abstract, we now know that each of the child classes of Employee should have its own method about bonuses
+    public abstract double getBonus();
 }

@@ -12,7 +12,8 @@ public class Manager extends Employee{
     public boolean log_In(String Password){
         return Objects.equals(this.password, Password);
     }
+
     public double getBonus(){
-        return super.getSalary() +super.getBonus();
+        return super.getSalary() +super.getSalary()*0.1;
     }
 }

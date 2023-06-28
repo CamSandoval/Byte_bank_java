@@ -2,7 +2,9 @@ public class Test_ControlBonus {
     public static void main(String[] args) {
         ControlBonus record_bonus = new ControlBonus();
 
-        Employee david = new Employee();
+        //We will change the data type Employee for any of its children classes, this is because we convert employee into an abstract class
+        // Employee david = new Employee();
+        Accountant david = new Accountant(1000002546);
         david.setSalary(2000);
         System.out.println(david.getBonus());//200.0
 
@@ -18,6 +20,6 @@ public class Test_ControlBonus {
         record_bonus.total_amount_bonuses(luis);
 
         System.out.println("The total of bonuses the company is paying is --> "
-                + record_bonus.getTotal());//The total of bonuses the company is paying is --> 7450.0
+                + record_bonus.getTotal());//The total of bonuses the company is paying is --> 6050.0
     }
 }
