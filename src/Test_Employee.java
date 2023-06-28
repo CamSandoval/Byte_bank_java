@@ -11,7 +11,7 @@ public class Test_Employee {
         System.out.println(diego.getBonus());//250.0
 
         //test manager
-        Manager juan = new Manager();
+        Manager juan = new Manager("9kr3t$4*g+64f2s");
         juan.setName("Juan Sandoval");
         juan.setSalary(5000);
         juan.setPassword("Names_555");

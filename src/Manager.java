@@ -1,18 +1,10 @@
 import java.util.Objects;
 
-public class Manager extends Employee{
-    private String password;
-    public Manager(){
+public class Manager extends Authenticatable_employee{
 
+    public Manager(String password) {
+        super.setPassword(password);
     }
-
-    public void setPassword(String Password){
-        this.password = Password;
-    }
-    public boolean log_In(String Password){
-        return Objects.equals(this.password, Password);
-    }
-
     public double getBonus(){
         return super.getSalary() +super.getSalary()*0.1;
     }

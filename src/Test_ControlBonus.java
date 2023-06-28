@@ -8,7 +8,7 @@ public class Test_ControlBonus {
         david.setSalary(2000);
         System.out.println(david.getBonus());//200.0
 
-        Manager jimena = new Manager();
+        Manager jimena = new Manager("5545%dfa*");
         jimena.setSalary(5000);
         System.out.println(jimena.getBonus());//5500.0
 
