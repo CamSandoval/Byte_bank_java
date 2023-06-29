@@ -10,7 +10,7 @@ public class Test_ControlBonus {
 
         Manager jimena = new Manager("5545%dfa*");
         jimena.setSalary(5000);
-        System.out.println(jimena.getBonus());//5500.0
+        System.out.println(jimena.getBonus());//7500.0
 
         Accountant luis = new Accountant(2);
         luis.setSalary(3500);
@@ -20,6 +20,6 @@ public class Test_ControlBonus {
         record_bonus.total_amount_bonuses(luis);
 
         System.out.println("The total of bonuses the company is paying is --> "
-                + record_bonus.getTotal());//The total of bonuses the company is paying is --> 6050.0
+                + record_bonus.getTotal());//The total of bonuses the company is paying is --> 8050.0
     }
 }

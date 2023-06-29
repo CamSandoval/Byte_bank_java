@@ -22,7 +22,7 @@ public class Test_Employee {
         Validate_log_in(juan.log_In("Names_555"));//Log in successfully
 
         //tests super attributes
-        System.out.println(juan.getBonus());//3500.0
+        System.out.println(juan.getBonus());//7500.0
     }
 
     public static void Validate_log_in(boolean log_in){

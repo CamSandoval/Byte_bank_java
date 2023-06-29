@@ -1,7 +1,16 @@
-class Customer {
+import java.util.Objects;
+
+class Customer implements Authenticatable{
     private String name;
     private String document;
     private String cellphone;
+    private String Password;
+
+    public Customer(String password,String Name,String Document){
+        this.Password=password;
+        this.name=Name;
+        this.document=Document;
+    }
 
     public String getCellphone() {
         return cellphone;
@@ -25,5 +34,20 @@ class Customer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getPassword() {
+        return this.Password;
+    }
+
+    @Override
+    public void setPassword(String password) {
+        this.Password = password;
+    }
+
+    @Override
+    public boolean log_In(String password) {
+        return Objects.equals(this.Password, password);
     }
 }

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b130a73c-fc07-4c7a-a34c-18b83fe4b879" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Authenticatable_employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Internal_system.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test_internal_system.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Authenticatable_employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Internal_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Internal_system.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test_ControlBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_ControlBonus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test_Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test_Employee.java" afterDir="false" />
@@ -46,14 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Key" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Key" />
-      <module name="Byte_bank_java_alura" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test_internal_system">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Byte_bank_java_alura" />
@@ -82,13 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_internal_system" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test_internal_system" />
+      <module name="Byte_bank_java_alura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test_Employee" />
-        <item itemvalue="Application.Test_Account" />
+        <item itemvalue="Application.Test_internal_system" />
         <item itemvalue="Application.Test_ControlBonus" />
-        <item itemvalue="Application.Key" />
+        <item itemvalue="Application.Test_Employee" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test_Account" />
       </list>
     </recent_temporary>
   </component>

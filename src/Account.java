@@ -10,7 +10,7 @@ abstract class Account {
     private int number;
     //the references are a way to relate one object to another, this is done by creating an attribute with a data
     // type that relates to our object
-    private Customer titular = new Customer();
+    private Customer titular ;
     //Static is a keyword used to create methods an attributes which will be specific to the class but not to its instances
     private static int total=0;
 
