@@ -39,16 +39,14 @@ abstract class Account {
      * this method makes a withdrawal into the owner's account
      * @param amount to withdraw*/
 
-    public boolean withdrawal(double amount){
+    public void withdrawal(double amount) throws InsufficientBalanceException{
         if(!(amount >0)){
             System.out.println("You don't make a withdrawal with a negative number");
-            return false;
         }else{
-            if(this.balance >=amount) {
-                this.balance -= amount;
-                return true;
+            if(this.balance < amount) {
+                throw new InsufficientBalanceException(" Insufficient balance");
             }else{
-                return false;
+                this.balance -= amount;
             }
         }
     }
@@ -58,8 +56,10 @@ abstract class Account {
      * @param amount quantity to transfer
      * @param  addressee destination account
      * @return returns if the transfer was successful*/
-    public boolean makeATransfer(double amount, Account addressee,Bank_account bank){
-        if(this.balance >=amount) {
+    public void makeATransfer(double amount, Account addressee,Bank_account bank) throws InsufficientBalanceException {
+        if(this.balance < amount) {
+            throw new InsufficientBalanceException("Your balance is insufficient");
+        }else{
             if(addressee.agency != this.agency) {
                 float tax = 0.25F;
                 bank.deposit(tax);
@@ -69,9 +69,6 @@ abstract class Account {
                 this.balance -=amount;
                 addressee.deposit(amount);
             }
-            return true;
-        }else{
-            return false;
         }
     }
 
