@@ -1,6 +1,11 @@
+package co.com.byte_bank.model;
+
+import co.com.byte_bank.model.Authenticatable;
+import co.com.byte_bank.model.Employee;
+
 import java.util.Objects;
 
-public class Manager extends Employee implements Authenticatable{
+public class Manager extends Employee implements Authenticatable {
     private String Password;
 
     public Manager(String password) {

@@ -1,3 +1,7 @@
+package co.com.byte_bank.test;
+
+import co.com.byte_bank.model.*;
+
 public class Test_internal_system {
     public static void main(String[] args) {
         Internal_system system = new Internal_system();

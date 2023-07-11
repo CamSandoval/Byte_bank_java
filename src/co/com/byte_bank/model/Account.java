@@ -1,6 +1,6 @@
-import java.util.AbstractCollection;
+package co.com.byte_bank.model;
 
-abstract class Account {
+public abstract class Account {
      //When we declared any class without their method main , this is used as a prototype to create many objects
         //Attributes
 
@@ -39,7 +39,7 @@ abstract class Account {
      * this method makes a withdrawal into the owner's account
      * @param amount to withdraw*/
 
-    public void withdrawal(double amount) throws InsufficientBalanceException{
+    public void withdrawal(double amount) throws InsufficientBalanceException {
         if(!(amount >0)){
             System.out.println("You don't make a withdrawal with a negative number");
         }else{
@@ -56,7 +56,7 @@ abstract class Account {
      * @param amount quantity to transfer
      * @param  addressee destination account
      * @return returns if the transfer was successful*/
-    public void makeATransfer(double amount, Account addressee,Bank_account bank) throws InsufficientBalanceException {
+    public void makeATransfer(double amount, Account addressee, Bank_account bank) throws InsufficientBalanceException {
         if(this.balance < amount) {
             throw new InsufficientBalanceException("Your balance is insufficient");
         }else{

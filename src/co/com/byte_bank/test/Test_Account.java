@@ -1,3 +1,7 @@
+package co.com.byte_bank.test;
+
+import co.com.byte_bank.model.*;
+
 public class Test_Account {
     public static void main(String[] args){
         Account savings_account = new SavingsAccount(1);

@@ -1,6 +1,10 @@
+package co.com.byte_bank.model;
+
+import co.com.byte_bank.model.Authenticatable;
+
 import java.util.Objects;
 
-class Customer implements Authenticatable{
+public class Customer implements Authenticatable {
     private String name;
     private String document;
     private String cellphone;

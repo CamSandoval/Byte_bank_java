@@ -1,3 +1,8 @@
+package co.com.byte_bank.test;
+
+import co.com.byte_bank.model.Accountant;
+import co.com.byte_bank.model.Manager;
+
 public class Test_Employee {
     public static void main(String[] args) {
         //test employee

@@ -1,3 +1,5 @@
+package co.com.byte_bank.model;
+
 //As we know that there is no position in our company which is named employee , we could convert Employee into an abstract class
     //It will limit the scope of the class Employee, and it cannot be used to instance new objects,
     // it will only allow to crate instances of its child classes

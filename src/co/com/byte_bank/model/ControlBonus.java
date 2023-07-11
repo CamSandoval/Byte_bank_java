@@ -1,3 +1,5 @@
+package co.com.byte_bank.model;
+
 public class ControlBonus {
     //This is a class that we'll use to record the total amount of bonuses for all of our employees.
     private double total;

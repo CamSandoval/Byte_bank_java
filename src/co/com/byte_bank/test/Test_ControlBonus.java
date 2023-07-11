@@ -1,3 +1,9 @@
+package co.com.byte_bank.test;
+
+import co.com.byte_bank.model.Accountant;
+import co.com.byte_bank.model.ControlBonus;
+import co.com.byte_bank.model.Manager;
+
 public class Test_ControlBonus {
     public static void main(String[] args) {
         ControlBonus record_bonus = new ControlBonus();

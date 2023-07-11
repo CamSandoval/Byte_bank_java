@@ -1,5 +1,10 @@
-public class Bank_account extends Account{
-    public Bank_account(int Agency){
+package co.com.byte_bank.model;
+
+import co.com.byte_bank.model.Account;
+
+public class SavingsAccount extends Account {
+
+    public SavingsAccount(int Agency){
         super(Agency);
     }
 

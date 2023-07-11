@@ -1,6 +1,8 @@
+package co.com.byte_bank.model;
+
 import java.util.Objects;
 
-public class Administrator extends Employee implements Authenticatable{
+public class Administrator extends Employee implements Authenticatable {
     private String Password;
 
     public Administrator(String password){
